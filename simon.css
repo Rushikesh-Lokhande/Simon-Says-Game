@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    /* position: absolute; */
+    height: 200px;
+    width: 200px;
+    
+    border: 2px solid black;
+    margin: 0.2rem;
+}
+
+.btn-container {
+    position: relative;
+    /* width: 300px; */
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.yello {
+    background-color: #f99b45;
+    border-radius: 0 0 0 100%;
+}
+
+.red {
+    background-color: #d95980;
+    border-radius: 100% 0 0 0;
+
+}
+
+.green {
+    background-color: #63aac0;
+    border-radius: 0 100% 0 0;
+}
+
+.purple {
+    background-color: #819ff9;
+    border-radius: 0 0 100% 0;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+    
+}
+
+.center-circle2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-circle {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: italic small-caps bold 16px/2 cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    right: 32.5%;
+    font: italic small-caps bold 16px/2 cursive;
+
+
+}
+
+
+
+
